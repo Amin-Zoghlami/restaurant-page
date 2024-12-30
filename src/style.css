@@ -1,0 +1,26 @@
+html,
+body {
+    background-color: #dc2626;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    gap: 30px;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+img.home {
+    height: 400px;
+    width: 500px;
+}
