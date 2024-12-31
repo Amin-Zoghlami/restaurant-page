@@ -15,6 +15,19 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+}
+
+svg {
+    height: 100px;
+    width: 100px;
+    flex-shrink: 0;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .nav {
@@ -33,14 +46,18 @@ button {
     width: 125px;
 }
 
-.home.image,
-.home.description {
+button:hover {
+    background-color: #ef4444;
+}
+
+.image,
+.description {
     display: flex;
     justify-content: center;
     text-align: center;
 }
 
-.home img {
+img {
     height: 400px;
     width: 500px;
     border: 20px solid #450a0a;
@@ -48,18 +65,53 @@ button {
     margin: 50px;
 }
 
-.home.description .text {
+.description {
+    margin-bottom: 20px;
+}
+
+.description h1 {
+    margin-bottom: 20px;
+}
+
+.description .text {
     background-color: #7f1d1d;
     padding: 20px;
     border-radius: 10px;
     max-width: 500px;
 }
 
-.home.description h1 {
+.menu-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    max-width: 500px;
+    background-color: #7f1d1d;
+    padding: 25px;
+    border-radius: 10px;
+    margin: 25px;
+}
+
+.burgers h1,
+.sides h1,
+.drinks h1{
+    border-bottom: 5px solid #FFFFFF;
     margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin: 15px;
 }
 
 .about img {
     height: 500px;
     width: 400px;
+   
 }
+

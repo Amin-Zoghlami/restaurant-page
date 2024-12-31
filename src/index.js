@@ -30,5 +30,3 @@ aboutButton.addEventListener("click", () => {
     clearContent();
     showAbout();
 });
-
-console.log("Greetings, World");
