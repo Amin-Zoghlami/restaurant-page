@@ -1,4 +1,4 @@
-import manImage from "./fire.jpg";
+import fireImage from "./fire.jpg";
 
 export default function() {
     const content = document.getElementById("content");
@@ -6,8 +6,8 @@ export default function() {
     const aboutImage = document.createElement("div");
     aboutImage.classList.add("about", "image");
     const img = document.createElement("img");
-    img.src = manImage
-    img.alt = "man";
+    img.src = fireImage
+    img.alt = "fire";
     aboutImage.appendChild(img);
     content.appendChild(aboutImage);
 
